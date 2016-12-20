@@ -1,0 +1,23 @@
+{
+  "name": "pipedrive",
+  "version": "1.0.0",
+  "description": "Pipedrive integration for Franz.",
+  "main": "index.js",
+  "author": "ygdotcom <yg.leboeuf@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://app.pipedrive.com",
+    "serviceName": "PipeDrive",
+    "message": "Pipedrive integration for Franz.",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
